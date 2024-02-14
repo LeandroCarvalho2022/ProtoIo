@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>PROTO.IO</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <header>
+    <!-- Navbar -->
+    <div class="container " style="width: fit-content; padding: 12px;">
+      <nav id="nav" class="navbar navbar-expand-lg" style="height: 45px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/Group.svg" height="32" alt="proto.io logo">
+          </a>
+          <div class="d-flex justify-content-end">
+            <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <i><img src="/assets/Feed.svg" alt=""></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: #8FFF00;" href="#">Gear</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sponsors</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" id="donate" class="btn btn-primary btn-dark" data-mdb-ripple-init>Donate</button>
+        </div>
+      </nav>
+
+      <div class="container" style="margin-top: .825rem;">
+        <div class="d-flex justify-content-end">
+          <img id="svgs" src="/assets/Group (1).svg" alt="">
+          <img id="svgs" src="/assets/Group (2).svg" alt="">
+          <img id="svgs" src="/assets/overwolfLogo.png" alt="">
+        </div>
+      </div>
+      <!--BRTT CARD-->
+      <div class="container " style="margin: .825rem 0px 0px 0px;  border-radius: 24px;">
+        <div class="card mb-3 mw-100" style="max-width: 540px; border-radius: 24px;">
+          <div class="row g-0" style="background-color: #363C57; border-radius: 24px;">
+            <div class="col-md-4" style="background-color: #363C57; border-radius: 24px;">
+              <img class="brTT" src="/assets/brtt.png" alt="BRTT" class="img-fluid rounded-start" />
+            </div>
+            <div class="col-md-8 d-flex" style="background-color: #363C57;">
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 36px; color: #FFFFFF;">brTT paiN</h5>
+                <p class="card-text" style="color: #FFFFFF; ">
+                  Fala aê, meu nome é brTT e eu sou profissional de League of Legends.
+                </p>
+                <p id="infos"> <img src="/assets/Location (1).svg"> Rio de janeiro, Brasil |
+                  <img src="/assets/Group (3).svg">
+                  <img src="/assets/Group (4).svg">
+                  <img src="/assets/twitterLogo.svg">
+                </p>
+                <div class="container" id="contact">
+                  <p id="infos" class="generic"><i id="mailmarg" class="fas fa-envelope"></i>painbrtt@contact.com.br
+                  </p> <img class="lolzin" src="/assets/lolLogo.png" alt="lolzinlogo">
+                  <p id="vava"><img class="vava" src="/assets/vava.png" alt="vava"></p>
+                </div>
+                <div class="container-fluid">
+                  <div class="d-flex justify-content-between">
+                    <img src="/assets/trophy.svg" alt="trofeú">
+                    <img src="/assets/user-icon.svg" alt="trofeú">
+                    <img src="/assets/($).svg" alt="trofeú">
+                    <img src="/assets/eye.svg" alt="trofeú">
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <h1>124</h1>
+                    <h1>2.6M</h1>
+                    <h1>14M</h1>
+                    <h1>30M+</h1>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <p id="infos">Campeonatos</p>
+                    <p id="infos">Seguidores</p>
+                    <p id="infos">Recompensados</p>
+                    <p id="infos">Visualizações</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--GEAR-->
+      <div class="container fit-content" style="margin-left: 12px;">
+        <div class="title" style="color: #ffffff;">MEU GEAR</div>
+        <div class="row w-100" id="centralGear">
+          <div id="mrgBt" class="row">
+            <div class="col-md-8">
+              <div class="row" style="display: flex; align-items: center; flex-wrap: nowrap;">
+                <div class="col-md-2" id="cardimage" style="background-color: #a8a8a8; "><img
+                    src="/assets/gearProd/mouseRazer130x140.png" id="img" alt=""></div>
+                <div class="col-md-4" id="cardCerton" style="background-color: #8FFF00;">
+                  <p id="active">Mouse</p>
+                  <p id="active"><span style="font-weight: bold; color: black;">Razer </span>Deathadder R-X1</p>
+                  <a href="#">
+                    <p id="active">View More <i class="fas fa-circle-right"></i></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="mrgBt" class="row">
+            <div class="col-md-8">
+              <div class="row" style="display: flex; align-items: center; flex-wrap: nowrap;">
+                <div class="col-md-2" id="cardimage" style="background-color: #a8a8a8; "><img
+                    src="/assets/gearProd/keyboardRazer130x140.png" id="img" alt=""></div>
+                <div class="col-md-4" id="cardCerton">
+                  <p>Teclado</p>
+                  <h6><span>Razer </span>BlackWidow Chroma 2.0</h6>
+                  <a href="#">
+                    <p>View More <i class="fas fa-circle-right"></i></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="mrgBt" class="row">
+            <div class="col-md-8">
+              <div class="row" style="display: flex; align-items: center; flex-wrap: nowrap;">
+                <div class="col-md-2" id="cardimage" style="background-color: #a8a8a8; "><img
+                    src="/assets/gearProd/headsetRazer130x140.png" id="img" alt=""></div>
+                <div class="col-md-4" id="cardCerton">
+                  <p>Headset</p>
+                  <h6><span>Razer </span>Kraken X</h6>
+                  <a href="#">
+                    <p>View More <i class="fas fa-circle-right"></i></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="mrgBt1" class="row">
+            <div class="col-md-8">
+              <div class="row" style="display: flex; align-items: center; flex-wrap: nowrap;">
+                <div class="col-md-2" id="cardimage" style="background-color: #a8a8a8; "><img
+                    src="/assets/gearProd/monitorRazer130x140.png" id="img" alt=""></div>
+                <div class="col-md-4" id="cardCerton">
+                  <p>Monitor</p>
+                  <h6><span>Razer </span>Raptor 27 1440p</h6>
+                  <a href="#">
+                    <p>View More <i class="fas fa-circle-right"></i></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="mrgBt1" class="row">
+            <div class="col-md-8">
+              <div class="row" style="display: flex; align-items: center; flex-wrap: nowrap;">
+                <div class="col-md-2" id="cardimage" style="background-color: #a8a8a8; "><img
+                    src="/assets/gearProd/padRazer130x140.png" id="img" alt=""></div>
+                <div class="col-md-4" id="cardCerton">
+                  <p>Mousepad</p>
+                  <h6><span>Razer </span>Soft Arena 150hz</h6>
+                  <a href="#">
+                    <p>View More <i class="fas fa-circle-right"></i></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="mrgBt1" class="row">
+            <div class="col-md-8">
+              <div class="row" style="display: flex; align-items: center; flex-wrap: nowrap;">
+                <div class="col-md-2" id="cardimage" style="background-color: #a8a8a8; "><img
+                    src="/assets/gearProd/micRazer130x140.png" id="img" alt=""></div>
+                <div class="col-md-4" id="cardCerton">
+                  <p>Mic</p>
+                  <h6><span>Razer </span>Seiren V2 X</h6>
+                  <a href="#">
+                    <p>View More <i class="fas fa-circle-right"></i></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--CONEXÁO GAYMER-->
+      <div class="container" style="margin-top:42px;">
+        <div class="card text-center" id="cnxg" style="background-color: #111111;">
+          <div class="card-body">
+            <h5 class="card-title"><img src="/assets/conexãogamer/1280px-Razer_wordmark 1.png" alt=""></h5>
+            <h1 class="card-title" style="color: #FFFFFF;">CONEXÃO GAMER</h1>
+            <p class="card-text"><span>Razer </span>X paIN Gaming</p>
+          </div>
+        </div>
+      </div>
+      <!--LOJA CARDS-->
+      <div class="container" style="margin-top: 30px;">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100" id="lojacard">
+              <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
+                <img src="/assets/loja/uniformeOficial000x205.png" class="card-img-top"
+                  alt="Hollywood Sign on The Hill" />
+                <a href="!#">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="color:#ffffff;">Uniforme Oficial paiN Gaming 2021</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et.
+                </p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <button type="button" id="donate" class="btn btn-primary btn-dark" data-mdb-ripple-init>Comprar
+                  agora</button>
+                <h3 id="cardprice" style="color: #747DA4;"><i class="far fa-money-bill-1"></i> 139.90</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" id="lojacard">
+              <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
+                <img src="/assets/loja/bonePain000x205.png" class="card-img-top" alt="Bonepain" />
+                <a href="!#">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="color:#ffffff;">Boné paiN Gaming 2021</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et.</p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <button type="button" id="donate" class="btn btn-primary btn-dark" data-mdb-ripple-init>Comprar
+                  agora</button>
+                <h3 id="cardprice" style="color: #747DA4;"><i class="far fa-money-bill-1"></i> 39.90</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" id="lojacard">
+              <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
+                <img src="/assets/loja/kitPain000x205.png" class="card-img-top" alt="Hollywood Sign on The Hill" />
+                <a href="!#">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="color:#ffffff;">Kit Uniforme + Boné paiN Gaming 2022</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et.</p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <button type="button" id="donate" class="btn btn-primary btn-dark" data-mdb-ripple-init>Comprar
+                  agora</button>
+                <h3 id="cardprice" style="color: #747DA4;"><i class="far fa-money-bill-1"></i> 159.90</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--TIME CARDS-->
+      <div class="container" style="margin-top: 30px; ">
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 0; display: flex; justify-content: center;">
+          <div class="col" id="cardtime">
+            <div class="card h-100">
+              <img src="/assets/time/wizer000x187.png" class="card-img-top" alt="Skyscrapers" />
+              <div class="card-body" id="bodycardtime">
+                <h4>paIN Wizer</h4>
+                <p class="card-text d-flex">
+                  <img id="iconstime" src="/assets/twitterLogo.svg">
+                  <img id="iconstime" src="/assets/Group (3).svg">
+                  <img id="iconstime" src="/assets/Group (4).svg">
+                </p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <p><img src="/assets/time/topIcon.png"> Top-Laner</p>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="cardtime">
+            <div class="card h-100">
+              <img src="/assets/time/cariok000x187.png" class="card-img-top" alt="Los Angeles Skyscrapers" />
+              <div class="card-body" id="bodycardtime">
+                <h4>paiN CarioK</h4>
+                <p class="card-text d-flex">
+                  <img id="iconstime" src="/assets/twitterLogo.svg">
+                  <img id="iconstime" src="/assets/Group (3).svg">
+                  <img id="iconstime" src="/assets/Group (4).svg">
+                </p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <p><img src="/assets/time/jungleIcon.png"> Jungler</p>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="cardtime">
+            <div class="card h-100">
+              <img src="/assets/time/dyNquedo000x187.png" class="card-img-top" alt="Palm Springs Road" />
+              <div class="card-body" id="bodycardtime">
+                <h4>paiN dyNquedo</h4>
+                <p class="card-text d-flex">
+                  <img id="iconstime" src="/assets/twitterLogo.svg">
+                  <img id="iconstime" src="/assets/Group (3).svg">
+                  <img id="iconstime" src="/assets/Group (4).svg">
+                </p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <p><img src="/assets/time/midIcon.png"> Mid-Laner</p>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="cardtime">
+            <div class="card h-100">
+              <img src="/assets/time/trigo000x187.png" class="card-img-top" alt="Palm Springs Road" />
+              <div class="card-body" id="bodycardtime">
+                <h4>paiN Trigo</h4>
+                <p class="card-text d-flex">
+                  <img id="iconstime" src="/assets/twitterLogo.svg">
+                  <img id="iconstime" src="/assets/Group (3).svg">
+                  <img id="iconstime" src="/assets/Group (4).svg">
+                </p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <p><img src="/assets/time/bottomIcon.png"> Bot-Laner</p>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="cardtime">
+            <div class="card h-100">
+              <img src="/assets/time/damage000x187.png" class="card-img-top" alt="Palm Springs Road" />
+              <div class="card-body" id="bodycardtime">
+                <h4>paiN Damage</h4>
+                <p class="card-text d-flex">
+                  <img id="iconstime" src="/assets/twitterLogo.svg">
+                  <img id="iconstime" src="/assets/Group (3).svg">
+                  <img id="iconstime" src="/assets/Group (4).svg">
+                </p>
+              </div>
+              <div id="cardfooter" class="card-footer text-muted d-flex justify-content-between">
+                <p><img src="/assets/time/supportIcon.png"> Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Produtos descricao-->
+
+      <div id="cardzin" class="container" style="position: relative; margin-bottom: 30px;">
+        <div class="row" style="display: flex; justify-content: center; align-items: center; ">
+          <div class="row">
+            <div class="col-6 col-md-4" style="background-image: url(/assets/propaganda/fone.png);" id="cardsprod">
+              <h6>Fone <span>R-X1</span></h6>
+            </div>
+            <div class="col-6 col-md-4" style="background-image: url(/assets/propaganda/teclado.png);" id="cardsprod">
+              <h6>Teclado <span>R-X1</span></h6>
+            </div>
+            <div class="col-6 col-md-4" style="background-image: url(/assets/propaganda/mouse.png);" id="cardsprod">
+              <h6>Mouse <span>R-X1</span></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Cards explain-->
+      <div class="container" style="margin-top: 30px;">
+        <div class="container " style=" display: flex; justify-content: flex-start; ">
+          <div id="vaisumi" class="col-md-4" style="margin: 5px; width: 20%; position: relative;">
+            <div class="teste1" id="carddescri" style=" background-image: url(/assets/propaganda/fone.png);">
+              <h6>Fone <span>R-X1</span></h6>
+            </div>
+            <div class="tesdt2" id="carddescri" style=" background-image: url(/assets/propaganda/teclado.png); ">
+              <h6>Teclado <span>R-X1</span></h6>
+            </div>
+            <div class="teste3" id="carddescri" style="background-image: url(/assets/propaganda/mouse.png); ">
+              <h6>Mouse <span>R-X1</span></h6>
+            </div>
+          </div>
+
+          <div id="cardzao" class="col-md-8" style="background-image: url(/assets/conexãogamer/painLogo.png);">
+            <div class="pb-3" style="margin: 0px 0px 42px 12px;">
+              <h3 style="color: black; font-weight: bold;">NOVA GERAÇÃO</h3>
+              <h6 style="color: black;">
+                <p style="color: black; font-weight: bold;">Razer</p>BlackWidow Chroma 2.0
+              </h6>
+              <button type="button" id="donate" class="btn btn-primary btn-dark" data-mdb-ripple-init
+                style="background-color: #111111;"><span>Ver mais</span></button>
+            </div>
+            <div id="imgs" class="pb-3">
+              <img style="width: 100%; height: 150px; " src="/assets/propaganda/itens/mousewing.png" alt="">
+            </div>
+          </div>
+
+        </div>
+        <div class="container " style=" display: flex; justify-content: flex-start; ">
+          <div id="vaisumi" class="col-md-4" style="margin: 5px; width: 20%; position: relative;">
+            <div class="teste1" id="carddescri" style=" background-image: url(/assets/propaganda/fone.png);">
+              <h6>Fone <span>R-X1</span></h6>
+            </div>
+            <div class="tesdt2" id="carddescri" style=" background-image: url(/assets/propaganda/teclado.png); ">
+              <h6>Teclado <span>R-X1</span></h6>
+            </div>
+            <div class="teste3" id="carddescri" style="background-image: url(/assets/propaganda/mouse.png); ">
+              <h6>Mouse <span>R-X1</span></h6>
+            </div>
+          </div>
+
+          <div id="cardzao" class="col-md-8" style="background-image: url(/assets/conexãogamer/painLogo.png);">
+            <div class="pb-3" style="margin: 0px 0px 42px 12px;">
+              <h3 style="color: black; font-weight: bold;">NOVA TECNOLOGIA</h3>
+              <h6 style="color: black;">
+                <p style="color: black; font-weight: bold;">Razer</p>Deathadder R-X1
+              </h6>
+              <button type="button" id="donate" class="btn btn-primary btn-dark" data-mdb-ripple-init
+                style="background-color: #111111;"><span>Ver mais</span></button>
+            </div>
+            <div id="imgs" class="pb-3">
+              <img style="width: 100%; height: 150px; " src="/assets/propaganda/itens/pngwing 1.png" alt="">
+            </div>
+          </div>
+
+        </div>
+        <div class="container " style=" display: flex; justify-content: flex-start; ">
+          <div id="vaisumi" class="col-md-4" style="margin: 5px; width: 20%; position: relative;">
+            <div class="teste1" id="carddescri" style=" background-image: url(/assets/propaganda/fone.png);">
+              <h6>Fone <span>R-X1</span></h6>
+            </div>
+            <div class="tesdt2" id="carddescri" style=" background-image: url(/assets/propaganda/teclado.png); ">
+              <h6>Teclado <span>R-X1</span></h6>
+            </div>
+            <div class="teste3" id="carddescri" style="background-image: url(/assets/propaganda/mouse.png); ">
+              <h6>Mouse <span>R-X1</span></h6>
+            </div>
+          </div>
+
+          <div id="cardzao" class="col-md-8" style="background-image: url(/assets/conexãogamer/painLogo.png);">
+            <div class="pb-3" style="margin: 0px 0px 42px 12px;">
+              <h3 style="color: black; font-weight: bold;">NOVA EXPERIÊNCIA</h3>
+              <h6 style="color: black;">
+                <p style="color: black; font-weight: bold;">Razer</p>Kraken X
+              </h6>
+              <button type="button" id="donate" class="btn btn-primary btn-dark" data-mdb-ripple-init
+                style="background-color: #111111;"><span>Ver mais</span></button>
+            </div>
+            <div id="imgs" class="pb-3">
+              <img style="width: 100%; height: 150px; " src="/assets/propaganda/itens/pngwing 1 (1).png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Carousel mouses-->
+      <div class="container">
+        <div id="carouselExampleCrossfade" class="carousel slide carousel-fade" data-mdb-ride="carousel"
+          data-mdb-carousel-init style="height: fit-content;">
+          <div class="carousel-indicators">
+            <button type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid d-flex justify-content-center " style="width: 100%;">
+                <div id="cardmouse" class="col-md-4 d-flex "><img src="/assets/propaganda/itenscardmouse/mousePng2.png">
+                  <div class="card-text" style=" margin-left: 22px;">
+                    <h3 style="color: white;">Razer Deathadder R-X1</h3>
+                    <p><img src="/assets/propaganda/cardmouse/1.png"> 82g Midweight Design</p>
+                    <p><img src="/assets/propaganda/cardmouse/2.png"> Razer™ Focus+ 20K DPI Optical Sensor</p>
+                    <p><img src="/assets/propaganda/cardmouse/offLightGreen.svg"> 8 programmable buttons</p>
+                    <p><img src="/assets/propaganda/cardmouse/4.png"> On-board DPI and keymap storage</p>
+                    <p><img src="/assets/propaganda/cardmouse/customizeLightGreen.svg"> 2nd Gen Razer™ Optical Mouse
+                      Switches
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid d-flex justify-content-center " style="width: 100%;">
+                <div id="cardmouse" style="background-color: #8FFF00;" class="col-md-4 d-flex "><img
+                    src="/assets/propaganda/itenscardmouse/mousecardverd.png">
+                  <div class="card-text" style="margin-left: 22px;">
+                    <h3 style="color: black;">Razer Deathadder R-X1</h3>
+                    <p style="color: black;"><img src="/assets/propaganda/cardmouse/iconespretos/settingsDarkGreen.svg">
+                      82g Midweight Design</p>
+                    <p style="color: black;"><img src="/assets/propaganda/cardmouse/iconespretos/modemDarkGreen.svg">
+                      Razer™ Focus+ 20K DPI Optical Sensor</p>
+                    <p style="color: black;"><img src="/assets/propaganda/cardmouse/iconespretos/offDarkGreen.svg"> 8
+                      programmable buttons</p>
+                    <p style="color: black;"><img src="/assets/propaganda/cardmouse/iconespretos/linkDarkGreen.svg">
+                      On-board DPI and keymap storage</p>
+                    <p style="color: black;"><img
+                        src="/assets/propaganda/cardmouse/iconespretos/customizeDarkGreen.svg"> 2nd Gen Razer™ Optical
+                      Mouse Switches
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCrossfade"
+            data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" style="color: #FFFFFF;" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCrossfade"
+            data-mdb-slide="next">
+            <span class="carousel-control-next-icon" style="color: #FFFFFF;" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!--CAROUSEL CADEIRAS GAMER-->
+      <div class="container">
+        <div id="carouselMaterialStyle" class="carousel slide carousel-fade" data-mdb-ride="carousel"
+          data-mdb-carousel-init>
+          <!-- indicadores -->
+          <div class="carousel-indicators">
+            <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+
+          <!-- Inner -->
+          <div class="carousel-inner rounded-5 shadow-4-strong">
+            <!-- item solo -->
+            <div class="carousel-item active">
+              <div class="container d-flex justify-content-center" style="padding: 0; margin-top: 50px;">
+                <div id="itemcarrossel" class="col-md-8">
+                  <div class="pb-3" style="margin: 30px;">
+                    <img src="/assets/propaganda/carouselcadeiras/chair-1.png">
+                  </div>
+                  <h4><span>Razer</span> Iskur - Black / <span>Green</span> - XL</h4>
+                  <p>Gaming Chair with Built-in Lumbar Support</p>
+                  <span id="preçocad"><button type="button" id="donate" class="btn btn-primary btn-dark"
+                      data-mdb-ripple-init>Donate</button> R$799,99</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- item solo  -->
+            <div class="carousel-item">
+              <div class="container d-flex justify-content-center" style="padding: 0; margin-top: 50px;">
+                <div id="itemcarrossel" class="col-md-8">
+                  <div class="pb-3" style="margin: 30px;">
+                    <img src="/assets/propaganda/carouselcadeiras/razerChair2.png">
+                  </div>
+                  <h4><span>Razer</span> Iskur - Gray / <span>Green</span> - XL</h4>
+                  <p>Gaming Chair with Built-in Lumbar Support</p>
+                  <span id="preçocad"><button type="button" id="donate" class="btn btn-primary btn-dark"
+                      data-mdb-ripple-init>Donate</button> R$999,99</span>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle"
+              data-mdb-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle"
+              data-mdb-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--Newsletter-->
+      <div class="container">
+        <div class="col-md-12"  id="newsletter">
+          <h3 id="nsletter" style="color: black;">Opa, que tal se inscrever no nosso newsletter
+            e ficar por dentro de tudo que acontece com o time?</h3>
+          <col-md-4>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Recipient's username"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button type="button" style="background-color: #111111; margin: 0px 0px 0px 12px; height: fit-content;
+              border-radius: 12px;"
+                class="btn btn-primary btn-dark" data-mdb-ripple-init>Inscreva-se</button>
+                <div class="div" ><img src="/assets/newsletter/PaiN_Gaming_2017_lightmode 1.png" alt=""></div>
+            </div>
+            
+          </col-md-4>
+        </div>
+      </div>
+      <!--Container geral-->
+    </div>
+
+  </header>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row" style="height: 259px;">
+        <div id="colunfott" class="col-md-6" style="background-color: #111111;"><img style="margin-bottom: 20px;" src="/assets/footer/paiN logo.png">
+        <p style="font-size: 12px; color: #636363;">© Pain Gaming 2022 ® Todos os Direitos Reservados</p>
+        <p style="font-size: 10px; color: #636363;">Loja online é exclusiva e conta com uma enorme variedade 
+          de produtos da marca da paiN Gaming e seus parceiros, nos melhores preços e condições de pagamento.</p>
+        </div>
+        <div id="colunfott2" class="col-md-6" style=" background-color: #111111;">
+        <a id="linkfoot" href="#">About</a>
+        <a href="#"><span>Gear</span></a>
+        <a id="linkfoot" href="#">Store</a>
+        <a id="linkfoot" href="#">Team</a>
+        <a id="linkfoot" href="#">Sponsors</a>
+        <div class="img" style="margin-top: 35px;">
+          <img src="/assets/Group (1).svg" alt="">
+          <img src="/assets/overwolfLogo.png" alt="">
+          <img src="/assets/Group (2).svg" alt="">
+        </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+  </footer>
+
+ 
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>

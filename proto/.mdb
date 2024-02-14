@@ -1,0 +1,9 @@
+{
+  "projectName": "proto",
+  "meta": {
+    "starter": "mdb5-free-standard",
+    "type": "frontend"
+  },
+  "hash": "f9f8cc79",
+  "packageManager": "npm"
+}
